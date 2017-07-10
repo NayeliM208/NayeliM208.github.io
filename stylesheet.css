@@ -1,5 +1,5 @@
 body{
-  Background:url(http://www.icanbecreative.com/res/freeweb/2011/04/paper_boat.png);
+  background-color: #bbfaf4;
 }
 .header{
   text-align: center;
@@ -43,31 +43,17 @@ body{
   }
   .portfolio{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
     position: relative;
-    margin-right: 280px;
   }
-  .portfolio img{
+  .cards img{
     height:300px;
     width: 300px;
     position: absolute;
   }
-  .portfolio h3{
+  .cards h3{
     position: absolute;
     font-style: bold;
     color: #ffffff;
-  }
-  .cards h3{
-    top: 120px;
-    left: 345px;
-  }
-  .drawing h3{
-    top: 120px;
-    left: 915px;
-  }
-  .other h3{
-    top: 120px;
-    left: 1470px;
   }
