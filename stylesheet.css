@@ -1,5 +1,5 @@
 body{
-  Background:url(http://cdn.wallpapersafari.com/79/10/hMk8H6.png);
+  Background:url(http://www.icanbecreative.com/res/freeweb/2011/04/paper_boat.png);
 }
 .header{
   text-align: center;
@@ -7,8 +7,8 @@ body{
   flex-direction: row;
 }
   .profilepic img{
-    width: 80px;
-    height:80px;
+    width: 130px;
+    height:130px;
   }
   .home{
     float: right;
@@ -31,4 +31,43 @@ body{
   .social li img{
     width: 40px;
     height: 40px;
+  }
+ .about h1{
+  font-family: fantasy;
+  text-align: center;
+  font-size: 50px;
+ }
+ .about p{
+   font-family: cursive;
+  font-size: 20px;
+  }
+  .portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 280px;
+  }
+  .portfolio img{
+    height:300px;
+    width: 300px;
+    position: absolute;
+  }
+  .portfolio h3{
+    position: absolute;
+    font-style: bold;
+    color: #ffffff;
+  }
+  .cards h3{
+    top: 120px;
+    left: 345px;
+  }
+  .drawing h3{
+    top: 120px;
+    left: 915px;
+  }
+  .other h3{
+    top: 120px;
+    left: 1470px;
   }
