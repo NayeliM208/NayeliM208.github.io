@@ -48,6 +48,7 @@ body{
   }
   .cards{
     position: relative;
+
   }
   .cardimage img{
     height:300px;
@@ -61,4 +62,50 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-  }
+   }
+   .SongGenerator {
+     background-image: background-image: url('http://wallpapercave.com/wp/GxjvkQ1.jpg');
+     width: 500px;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+   }
+    .SongGenerator h4{
+      font-family:'Russo One', sans-serif;
+      font-size: 64px;
+      margin-left: 25px;
+      color: #057c96;
+    }
+    .SongGenerator button {
+	margin-left: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 6px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 28px;
+  color: #057c96;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #ddd;
+	border: 3px solid #555;
+	height: 60px;
+	width: 200px;
+}
+  .SongGenerator button:hover{
+	opacity: .75;
+}
+  .SongGenerator #Song{
+	position: relative;
+	top: 30px;
+	left: 25px;
+	font-family: 'Amatic SC', monospace;
+	font-size: 96px;
+  color: #057c96;
+}
+  .SongGenerator #license{
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	font-family: monospace;
+	font-size: 12px;
+}
