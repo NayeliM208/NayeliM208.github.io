@@ -63,3 +63,23 @@ body{
     left: 0;
     right: 0;
    }
+   .cardheader h3{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 100px;
+   }
+   .quizlink {
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     margin: 30px;
+   }
+   .quizlink img{
+     width: 300px;
+     height: 300px;
+   }
+   .quizlink p{
+     font-size: 25px;
+   }
